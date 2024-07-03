@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar__logo img {
+  height: 200%;
+  margin-top: -20px;
+}
+
+.navbar__brand {
+  position: relative;
+}
+
+.navbar__title {
+  position: absolute;
+  left: 110px;
+}

@@ -1,0 +1,50 @@
+# FROM golang:1.15.4-alpine3.12 AS pruner
+# RUN apk update && \
+#   apk add --no-cache git openssh && \
+#   go get github.com/tj/node-prune
+
+FROM node:20.11.0-alpine AS deps
+RUN apk update && apk add --no-cache alpine-sdk git openssh python3 libc6-compat curl 
+WORKDIR /app
+# COPY --from=pruner /go/bin/node-prune /usr/bin
+RUN curl -sf https://gobinaries.com/tj/node-prune | sh
+COPY package.json yarn.lock lerna.json .prettierrc tsconfig.json ./
+RUN yarn install --pure-lockfile && node-prune
+
+FROM node:20.11.0-alpine AS env
+WORKDIR /app
+ARG NEXT_PUBLIC_NODE_ENV
+
+RUN echo "NEXT_PUBLIC_NODE_ENV=$NEXT_PUBLIC_NODE_ENV" >> .env 
+
+FROM deps AS builder
+WORKDIR /app
+COPY lerna.json ./
+ARG NPM_TOKEN
+RUN echo "always-auth=true" >> .npmrc && echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
+COPY packages/frontend/package.json packages/frontend/package.json
+RUN yarn install --pure-lockfile
+COPY packages/frontend ./packages/frontend
+COPY --from=env /app/.env ./packages/frontend/
+ENV NODE_ENV=production
+RUN yarn build
+
+
+FROM node:20.11.0-alpine AS app
+RUN apk update && apk add --no-cache wget
+WORKDIR /app
+
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/packages/frontend/node_modules ./packages/frontend/node_modules
+COPY --from=builder /app/packages/frontend/static ./packages/frontend/static
+COPY --from=builder /app/packages/frontend/.docusaurus ./packages/frontend/.docusaurus
+COPY --from=builder /app/packages/frontend/package.json \
+  /app/packages/frontend/.env \
+  ./packages/frontend/
+
+WORKDIR /app/packages/frontend
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED 1
+EXPOSE 3000
+ENTRYPOINT ["node"]
+CMD ["../../node_modules/.bin/docusaurus", "start"]

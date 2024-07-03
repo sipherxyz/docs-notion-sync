@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "scripts": {
+    "frontend": "yarn workspace @funki-docs/frontend",
+    "build": "lerna run --concurrency 1 --stream build",
+    "docker:local": "docker-compose -f ./docker/docker-compose.postgres.yml"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.2"
+  }
+}
