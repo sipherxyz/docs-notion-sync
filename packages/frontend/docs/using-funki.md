@@ -40,10 +40,10 @@ To add Funki as a custom network to MetaMask:
    | :-------------- | :----------------------------------------------------- |
    | Network Name    | Funki Mainnet                                          |
    | Description     | The public mainnet for Funki.                          |
-   | RPC Endpoint    | TODO   |
+   | RPC Endpoint    | Coming soon   |
    | Chain ID        | 33979                                                  |
    | Currency Symbol | ETH                                                    |
-   | Block Explorer  | TODO |
+   | Block Explorer  | Coming soon |
 
 6. Tap the Save button to save Funki as a network.
 

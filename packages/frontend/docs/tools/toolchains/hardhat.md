@@ -37,7 +37,7 @@ To configure [Hardhat](https://hardhat.org/) to deploy smart contracts to Funki,
 networks: {
    // for mainnet
    "funki-mainnet": {
-     url: 'comming soon',
+     url: 'coming soon',
      accounts: [process.env.PRIVATE_KEY as string],
      gasPrice: 1000000000,
    },
