@@ -34,7 +34,7 @@ The steps below explain how to get your token on the Funki Token List.
 
 ### Step 1: Deploy your token on Funki
 
-Select your preferred bridging framework and use it to deploy an ERC-20 for your token on Funki. We recommend you use the framework provided by Funki's [standard bridge](https://github.com/ethereum-optimism/specs/blob/main/specs/protocol/bridges.md) contracts, and furthermore deploy your token using the [OptimismMintableERC20Factory](https://docs-funki.sipher.gg/docs/funki-contracts#funki-l2). Deploying your token on Funki in this manner provides us with guarantees that will smooth the approval process. If you choose a different bridging framework, its interface must be compatible with that of the standard bridge, otherwise it may be difficult for us to support.
+Select your preferred bridging framework and use it to deploy an ERC-20 for your token on Funki. We recommend you use the framework provided by Funki's [standard bridge](https://github.com/ethereum-optimism/specs/blob/main/specs/protocol/bridges.md) contracts, and furthermore deploy your token using the [OptimismMintableERC20Factory](https://docs.funkichain.com/docs/funki-contracts#funki-l2). Deploying your token on Funki in this manner provides us with guarantees that will smooth the approval process. If you choose a different bridging framework, its interface must be compatible with that of the standard bridge, otherwise it may be difficult for us to support.
 
 ### Step 2: Submit details for your token
 

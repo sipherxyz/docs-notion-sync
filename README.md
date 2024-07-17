@@ -17,7 +17,7 @@ Welcome to the FunkiChain documentation repository! This repository contains all
 
 FunkiChain is an L2 Ethereum Rollup Network, powered by the OP Stack, part of the Superchain, leveraging OP Plasma Mode and secured by Ethereum.
 
-This repository contains the source code and content for the FunkiChain documentation site, which can be found at [docs-funki.sipher.gg](https://docs-funki.sipher.gg/docs/).
+This repository contains the source code and content for the FunkiChain documentation site, which can be found at [docs.funkichain.com](https://docs.funkichain.com/docs).
 
 ## Getting Started
 

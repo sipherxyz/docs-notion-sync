@@ -40,10 +40,10 @@ To add Funki as a custom network to MetaMask:
    | :-------------- | :----------------------------------------------------- |
    | Network Name    | Funki Mainnet                                          |
    | Description     | The public mainnet for Funki.                          |
-   | RPC Endpoint    | Coming soon   |
+   | RPC Endpoint    | [https://rpc-mainnet.funkichain.com](https://rpc-mainnet.funkichain.com)   |
    | Chain ID        | 33979                                                  |
    | Currency Symbol | ETH                                                    |
-   | Block Explorer  | Coming soon |
+   | Block Explorer  | [https://funki.superscan.network](https://funki.superscan.network) |
 
 6. Tap the Save button to save Funki as a network.
 
@@ -67,7 +67,7 @@ To add Funki Testnet as a custom network to MetaMask:
    | RPC Endpoint    | [https://funki-testnet.alt.technology](https://funki-testnet.alt.technology)                   |
    | Chain ID        | 3397901                                                                  |
    | Currency Symbol | ETH                                                                    |
-   | Block Explorer  | [https://sepolia-sandbox.funkichain.com/](https://sepolia-sandbox.funkichain.com/) |
+   | Block Explorer  | [https://sepolia-sandbox.funkichain.com](https://sepolia-sandbox.funkichain.com) |
 
 6. Tap the Save button to save Funki Testnet as a network.
 
