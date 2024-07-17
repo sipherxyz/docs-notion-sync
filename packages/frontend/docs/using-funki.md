@@ -43,7 +43,7 @@ To add Funki as a custom network to MetaMask:
    | RPC Endpoint    | [https://rpc-mainnet.funkichain.com](https://rpc-mainnet.funkichain.com)   |
    | Chain ID        | 33979                                                  |
    | Currency Symbol | ETH                                                    |
-   | Block Explorer  | [https://funki.superscan.network](https://funki.superscan.network) |
+   | Block Explorer  | [https://funkiscan.io/](https://funkiscan.io/) |
 
 6. Tap the Save button to save Funki as a network.
 
