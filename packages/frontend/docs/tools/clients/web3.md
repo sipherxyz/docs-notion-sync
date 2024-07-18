@@ -62,7 +62,7 @@ const web3 = new Web3('https://rpc-mainnet.funkichain.com');
 
 :::info
 
-To alternatively connect to Funki Sepolia (testnet), change the above URL from `chttps://rpc-mainnet.funkichain.com` to `https://funki-testnet.alt.technology`.
+To alternatively connect to Funki Sepolia (testnet), change the above URL from `https://rpc-mainnet.funkichain.com` to `https://funki-testnet.alt.technology`.
 
 :::
 

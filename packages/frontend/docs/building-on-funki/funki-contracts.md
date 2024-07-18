@@ -26,27 +26,27 @@ keywords:
 
 | Name                              | Address                                                                                                               |
 | :-------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
-| AddressManager                    | [0x9f57Ea46181413Af5fee08b85dA7F19c07170039](https://funkiscan.io/address/0x9f57Ea46181413Af5fee08b85dA7F19c07170039) |
-| AnchorStateRegistryProxy          | [0x46afe95C60C40492c5Fc079B3D290C64fd65e066](https://funkiscan.io/address/0x46afe95C60C40492c5Fc079B3D290C64fd65e066) |
-| BatchInboxAddress                 | [0xFF000000000000000000000000000000000084bb](https://funkiscan.io/address/0xFF000000000000000000000000000000000084bb) |
-| DataAvailabilityChallengeProxy    | [0x11f52BBC151F2ABef8079B610694CEf29a6707Cf](https://funkiscan.io/address/0x11f52BBC151F2ABef8079B610694CEf29a6707Cf) |
-| DelayedWETHProxy                  | [0xf5a75B277d2fd7AC8174aEd4aaD9c65D103fC4ca](https://funkiscan.io/address/0xf5a75B277d2fd7AC8174aEd4aaD9c65D103fC4ca) |
-| DisputeGameFactoryProxy           | [0x9466fBcF9485E3B1bBDf0aB0864324EFC3feCf07](https://funkiscan.io/address/0x9466fBcF9485E3B1bBDf0aB0864324EFC3feCf07) |
-| L1CrossDomainMessengerProxy       | [0xC9d7a57D68F872B3E2312F4AC0bd8875e9088A0c](https://funkiscan.io/address/0xC9d7a57D68F872B3E2312F4AC0bd8875e9088A0c) |
-| L1ERC721BridgeProxy               | [0x42A8DE6f92CF93b9c9b0f608004df363a7bE74Db](https://funkiscan.io/address/0x42A8DE6f92CF93b9c9b0f608004df363a7bE74Db) |
-| L1StandardBridgeProxy             | [0xb3d13161d50387F3a861FB4e640A44620ef554Ac](https://funkiscan.io/address/0xb3d13161d50387F3a861FB4e640A44620ef554Ac) |
-| L2OutputOracleProxy               | [0xeb86861851981668855B57B5077FaFB629aE275d](https://funkiscan.io/address/0xeb86861851981668855B57B5077FaFB629aE275d) |
-| Mips                              | [0x845333A30477D6e143F37D6d97Dc59B654E64141](https://funkiscan.io/address/0x845333A30477D6e143F37D6d97Dc59B654E64141) |
-| OptimismMintableERC20FactoryProxy | [0x4028E0249817D8feA7849a639d6013151f318317](https://funkiscan.io/address/0x4028E0249817D8feA7849a639d6013151f318317) |
-| OptimismPortalProxy               | [0xd7D54ba8FC105eE6e03d0895fDCFbebAe0D42Cb6](https://funkiscan.io/address/0xd7D54ba8FC105eE6e03d0895fDCFbebAe0D42Cb6) |
-| PreimageOracle                    | [0x044BC8386Ab71E20407920bb46de95e9610443e2](https://funkiscan.io/address/0x044BC8386Ab71E20407920bb46de95e9610443e2) |
-| ProtocolVersionsProxy             | [0x68Ff0881d93840777931F90c3468F90551Af9cd3](https://funkiscan.io/address/0x68Ff0881d93840777931F90c3468F90551Af9cd3) |
-| ProxyAdmin                        | [0x60fb8f9849742400b3B3b6Ca9e3d12E729bB88d4](https://funkiscan.io/address/0x60fb8f9849742400b3B3b6Ca9e3d12E729bB88d4) |
+| AddressManager                    | [0x5a4ebF927338EA6af377caEee99C85088908f57D](https://funkiscan.io/address/0x5a4ebF927338EA6af377caEee99C85088908f57D) |
+| AnchorStateRegistryProxy          | [0x48eB5A81CC3a8955d0DabD6eEd45ac09C7c1889f](https://funkiscan.io/address/0x48eB5A81CC3a8955d0DabD6eEd45ac09C7c1889f) |
+| BatchInboxAddress                 | [0xFF00000000000000000000000000000084bb84bb](https://funkiscan.io/address/0xFF00000000000000000000000000000084bb84bb) |
+| DataAvailabilityChallengeProxy    | [0xF40b807c2407e1d7dabb85f3ceefd5EACc7bF3CD](https://funkiscan.io/address/0xF40b807c2407e1d7dabb85f3ceefd5EACc7bF3CD) |
+| DelayedWETHProxy                  | [0x7992352f723d1209CDd9B786dEF1fBd8DC6511DB](https://funkiscan.io/address/0x7992352f723d1209CDd9B786dEF1fBd8DC6511DB) |
+| DisputeGameFactoryProxy           | [0x2Dc9d2Cb1Ba0b8A46AE252ab4FBE1ad5C5c3B795](https://funkiscan.io/address/0x2Dc9d2Cb1Ba0b8A46AE252ab4FBE1ad5C5c3B795) |
+| L1CrossDomainMessengerProxy       | [0x8F56a665c376A08b604DD32ee6E88667A6093172](https://funkiscan.io/address/0x8F56a665c376A08b604DD32ee6E88667A6093172) |
+| L1ERC721BridgeProxy               | [0x94519dD4BA8ba20Aaad14f7C6cD00fa1bB0192E9](https://funkiscan.io/address/0x94519dD4BA8ba20Aaad14f7C6cD00fa1bB0192E9) |
+| L1StandardBridgeProxy             | [0xA2C1C1A473250094a6244F2bcf6Cb51F670Ad3aC](https://funkiscan.io/address/0xA2C1C1A473250094a6244F2bcf6Cb51F670Ad3aC) |
+| L2OutputOracleProxy               | [0x1A9aE6486caEc0504657351ac473B3dF8A1367cb](https://funkiscan.io/address/0x1A9aE6486caEc0504657351ac473B3dF8A1367cb) |
+| Mips                              | [0x29564D1B96A1308E6930F88665576763Ed4837E2](https://funkiscan.io/address/0x29564D1B96A1308E6930F88665576763Ed4837E2) |
+| OptimismMintableERC20FactoryProxy | [0x87e75DcC1BB4e5B42cB5c52eB5832d6eCC3bFeF4](https://funkiscan.io/address/0x87e75DcC1BB4e5B42cB5c52eB5832d6eCC3bFeF4) |
+| OptimismPortalProxy               | [0x5C9C7f98eD153a2deAA981eB5C97B31744AccF22](https://funkiscan.io/address/0x5C9C7f98eD153a2deAA981eB5C97B31744AccF22) |
+| PreimageOracle                    | [0xd8f66eFeC53CeA76C597827ba5Bf3F68D29f2fA8](https://funkiscan.io/address/0xd8f66eFeC53CeA76C597827ba5Bf3F68D29f2fA8) |
+| ProtocolVersionsProxy             | [0x4e963F3335Bb44d03302A2C9f3c254F74d15cEBA](https://funkiscan.io/address/0x4e963F3335Bb44d03302A2C9f3c254F74d15cEBA) |
+| ProxyAdmin                        | [0xD069C4724f9bC15FA53b3b2516594512AEf8c957](https://funkiscan.io/address/0xD069C4724f9bC15FA53b3b2516594512AEf8c957) |
 | SafeProxyFactory                  | [0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2](https://funkiscan.io/address/0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2) |
 | SafeSingleton                     | [0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552](https://funkiscan.io/address/0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552) |
-| SuperchainConfigProxy             | [0x0446704C49F1000f95Aa5fa0A713a7ceAb6B2D5e](https://funkiscan.io/address/0x0446704C49F1000f95Aa5fa0A713a7ceAb6B2D5e) |
-| SystemConfigProxy                 | [0xCc64E915B0265C8Ce4c13BE85BA0bF4142401ffE](https://funkiscan.io/address/0xCc64E915B0265C8Ce4c13BE85BA0bF4142401ffE) |
-| SystemOwnerSafe                   | [0xbEd2F85705A8c72c3855303ED0FA682B9ad2E929](https://funkiscan.io/address/0xbEd2F85705A8c72c3855303ED0FA682B9ad2E929) |
+| SuperchainConfigProxy             | [0xD3B2Ee457Cf8F05f00c17BFe509b43BA04c9e5a2](https://funkiscan.io/address/0xD3B2Ee457Cf8F05f00c17BFe509b43BA04c9e5a2) |
+| SystemConfigProxy                 | [0xD39a6CcCFa23cb741bB530497e42EC337f1215a8](https://funkiscan.io/address/0xD39a6CcCFa23cb741bB530497e42EC337f1215a8) |
+| SystemOwnerSafe                   | [0x89CB6669f87c165E7128F4a57476EE4Daa7ffbCD](https://funkiscan.io/address/0x89CB6669f87c165E7128F4a57476EE4Daa7ffbCD) |
 
 ### Funki (L2)
 

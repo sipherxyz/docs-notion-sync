@@ -26,11 +26,11 @@ keywords:
 
 ## Funki Bridge
 
-The [Funki Bridge](https://swap.funkichain.com/) allows you to bridge ETH and certain ERC-20s from Ethereum to Funki and vice versa.
+The [Funki Bridge](https://funkichain.com/bridge) allows you to bridge ETH and certain ERC-20s from Ethereum to Funki and vice versa.
 
 To bridge to or from Funki:
 
-1. Visit [Funki Bridge](https://swap.funkichain.com/)
+1. Visit [Funki Bridge](https://funkichain.com/bridge)
 2. Click **Connect wallet**
 3. Connect your wallet
 4. Choose the amount of ETH (or the asset of your choice that's available) you'd like to deposit or withdraw
@@ -45,6 +45,7 @@ See the [sample code repository](https://github.com/funkichain/guides/tree/main/
 
 :::caution
 
+
 **Double check the token address for ERC-20s** You can use any ERC-20 that is
 supported on the network. You can check what assets are on Funki and the
 corresponding contract address via [this hub](https://github.com/ethereum-optimism/ethereum-optimism.github.io/tree/master/data).
@@ -53,6 +54,7 @@ Always test with small amounts to ensure the system is working as expected.
 :::
 
 :::caution
+
 This implementation only can bridge assets to Funki. Do not attempt to alter the
 code to withdraw the assets.
 

@@ -33,7 +33,7 @@ keywords:
 | RPC Endpoint    | [https://rpc-mainnet.funkichain.com](https://rpc-mainnet.funkichain.com) <br/>_Rate limited and not for production systems._ |
 | Chain ID        | 33979                        |
 | Currency Symbol | ETH                    |
-| Block Explorer  | [https://funkiscan.io/](https://funkiscan.io/)                                            |
+| Block Explorer  | [https://funkiscan.io](https://funkiscan.io)                                            |
 
 ---
 

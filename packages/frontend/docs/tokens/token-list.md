@@ -42,4 +42,5 @@ Follow the instructions in the [GitHub repository](https://github.com/ethereum-o
 
 ### Step 3: Await final approval
 
-Tokens approved in the Github repository are not necessarily listed on the Funki Bridge and are not guaranteed or automatic. Funki Bridge reviews are conducted manually by the Funki team. For more information, please visit our [Discord](https://funki.org/discord).
+Tokens approved in the Github repository are not necessarily listed on the Funki Bridge and are not guaranteed or automatic. Funki Bridge reviews are conducted manually by the Funki team.
+ <!-- For more information, please visit our [Discord](https://funki.org/discord). -->
