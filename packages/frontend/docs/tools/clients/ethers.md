@@ -53,7 +53,7 @@ You can connect to Funki by instantiating a new ethers.js `JsonRpcProvider` obje
 ```javascript
 const ethers = require('ethers');
 
-const url = 'coming soon';
+const url = 'https://rpc-mainnet.funkichain.com';
 const provider = new ethers.providers.JsonRpcProvider(url);
 ```
 

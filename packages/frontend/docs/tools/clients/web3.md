@@ -57,12 +57,12 @@ You can connect to Funki by instantiating a new web3.js `Web3` object with a RPC
 ```javascript
 const { Web3 } = require('web3');
 
-const web3 = new Web3('coming soon');
+const web3 = new Web3('https://rpc-mainnet.funkichain.com');
 ```
 
 :::info
 
-To alternatively connect to Funki Sepolia (testnet), change the above URL from `coming soon` to `https://funki-testnet.alt.technology`.
+To alternatively connect to Funki Sepolia (testnet), change the above URL from `chttps://rpc-mainnet.funkichain.com` to `https://funki-testnet.alt.technology`.
 
 :::
 

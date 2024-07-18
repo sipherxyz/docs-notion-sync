@@ -25,7 +25,7 @@ keywords:
 
 ## Blockscout
 
-A Blockscout explorer is available for [Funki](https://mainnet.funkichain.com/).
+A Blockscout explorer is available for [Funki](https://funkiscan.io).
 
 Blockscout provides tools to help you debug smart contracts and transactions:
 

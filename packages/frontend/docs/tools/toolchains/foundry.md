@@ -44,7 +44,7 @@ Just provide the Funki RPC URL and Chain ID when deploying and verifying your co
 ### Deploying a smart contract
 
 ```bash
-forge create ... --rpc-url=`coming soon`/
+forge create ... --rpc-url=`https://rpc-mainnet.funkichain.com`/
 ```
 
 ### Verifying a smart contract
