@@ -23,15 +23,21 @@ keywords:
 
 # Block Explorers
 
-## Blockscout
+## Mainnet
 
-A Blockscout explorer is available for [Funki](https://mainnet.funkichain.com/).
+A Routescan explorer is available for [Funki Mainnet](https://funkiscan.io).
+
+Routescan superchain explorer allows you to search for transactions, addresses, tokens, prices and other activities taking place across all Superchain blockchains, including Funki.
+
+---
+
+## Testnet
+
+A Blockscout explorer is available for [Funki Testnet](https://sepolia-sandbox.funkichain.com).
 
 Blockscout provides tools to help you debug smart contracts and transactions:
 
 - View, verify, and interact with smart contract source code.
 - View detailed transaction information
-
-A testnet explorer for [Funki Sepolia](https://sepolia-sandbox.funkichain.com/) is also available.
 
 ---

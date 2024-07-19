@@ -32,9 +32,9 @@ Funki Bridge enables the transfer of certain digital assets and other data back 
 
 You can use popular Ethereum wallets like MetaMask, and Rainbow Wallet to name a few.
 
-### What if I have a question, issue or problem?
+<!-- ### What if I have a question, issue or problem?
 
-The [Funki Discord](https://discord.com/invite/playSIPHER) community is available around the clock for general questions, assistance and support! Depending on your issue, you can create a support ticket in the `#general-support` or `#developer-support` channels.
+The [Funki Discord](https://discord.com/invite/playSIPHER) community is available around the clock for general questions, assistance and support! Depending on your issue, you can create a support ticket in the `#general-support` or `#developer-support` channels. -->
 
 ### How do you withdraw from Funki?
 

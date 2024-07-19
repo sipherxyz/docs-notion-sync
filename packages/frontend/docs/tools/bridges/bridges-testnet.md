@@ -27,11 +27,11 @@ keywords:
 
 ## Funki Bridge (Testnet)
 
-The [Funki Bridge](https://sepolia-swap.funkichain.com/) for testnet allows you to bridge ETH and certain ERC-20s from Ethereum Sepolia to Funki Sepolia and vice versa.
+The [Funki Bridge](https://funkichain.com/bridge) for testnet allows you to bridge ETH and certain ERC-20s from Ethereum Sepolia to Funki Sepolia and vice versa.
 
 To bridge to or from Funki Sepolia:
 
-1. Visit [Funki Bridge](https://sepolia-swap.funkichain.com/)
+1. Visit [Funki Bridge](https://funkichain.com/bridge)
 2. Click **Connect wallet**
 3. Connect your wallet
 4. Choose the amount of ETH (or the asset of your choice that's available) you'd like to deposit or withdraw

@@ -30,10 +30,10 @@ keywords:
 | :-------------- | :----------------------------------------------------- |
 | Network Name    | Funki Mainnet                |
 | Description     | The public mainnet for Funki.      |
-| RPC Endpoint    | coming soon <br/>_Rate limited and not for production systems._ |
+| RPC Endpoint    | [https://rpc-mainnet.funkichain.com](https://rpc-mainnet.funkichain.com) <br/>_Rate limited and not for production systems._ |
 | Chain ID        | 33979                        |
 | Currency Symbol | ETH                    |
-| Block Explorer  | coming soon                                            |
+| Block Explorer  | [https://funkiscan.io](https://funkiscan.io)                                            |
 
 ---
 
@@ -46,7 +46,7 @@ keywords:
 | RPC Endpoint    | [https://funki-testnet.alt.technology](https://funki-testnet.alt.technology)<br/>_Rate limited and not for production systems._ |
 | Chain ID        | 3397901                                                                         |
 | Currency Symbol | ETH                                                                       |
-| Block Explorer  | [https://sepolia-sandbox.funkichain.com/](https://sepolia-sandbox.funkichain.com/)   |
+| Block Explorer  | [https://sepolia-sandbox.funkichain.com](https://sepolia-sandbox.funkichain.com)   |
 
 ---
 

@@ -53,13 +53,13 @@ You can connect to Funki by instantiating a new ethers.js `JsonRpcProvider` obje
 ```javascript
 const ethers = require('ethers');
 
-const url = 'comming soon';
+const url = 'https://rpc-mainnet.funkichain.com';
 const provider = new ethers.providers.JsonRpcProvider(url);
 ```
 
 :::info
 
-To alternatively connect to Funki Sepolia (testnet), change the above URL from `comming soon` to `https://funki-testnet.alt.technology`.
+To alternatively connect to Funki Sepolia (testnet), change the above URL from `https://rpc-mainnet.funkichain.com` to `https://funki-testnet.alt.technology`.
 
 :::
 
