@@ -35,6 +35,17 @@ const sidebars: SidebarsConfig = {
       type: "category",
       collapsed: false,
       collapsible: false,
+      label: "Tutorials",
+      items: [
+        "tutorials/verify-sm-on-funkichain",
+        "tutorials/simple-nfts",
+        "tutorials/simple-fungible-tokens",
+      ],
+    },
+    {
+      type: "category",
+      collapsed: false,
+      collapsible: false,
       label: "Tools",
       items: [
         "tools/node-providers",
