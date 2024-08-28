@@ -57,7 +57,7 @@ contract RandomColorNFT is ERC721 {
 >
 
 ## Offchain Metadata
-[](https://docs.base.org/tutorials/simple-onchain-nfts#onchain-metadata)
+[](#onchain-metadata)
 
 > You can skip this section if you prefer to make your metadata fully on-chain.
 > 
@@ -151,7 +151,7 @@ function tokenURI(uint256 tokenId) public view virtual returns (string memory) {
 
 By managing your API's output, you can provide unique metadata for each NFT tokenId.
 
-## Onchain Metadata[](https://docs.base.org/tutorials/simple-onchain-nfts#onchain-metadata)
+## Onchain Metadata[](#onchain-metadata)
 
 > Skip this section if you've already implemented your metadata off-chain.
 > 
@@ -379,7 +379,7 @@ function getNFftsOwned(address owner) public view returns (TokenAndMetatdata[] m
 
 ```
 
-## Testing[](https://docs.base.org/tutorials/simple-onchain-nfts#testing)
+## Testing[](#testing)
 
 Test your contract locally, then deploy and verify it. Ensure proper formatting of JSON metadata and SVG image. To confirm functionality, check the collection on a testnet NFT marketplace.
 
@@ -393,6 +393,6 @@ To deploy the contract, you can refer to our tutorials that suit your preferred 
 - Deploying a smart contract using Hardhat
 - Deploying a smart contract using Remix
 
-## Conclusion[](https://docs.base.org/tutorials/simple-onchain-nfts#conclusion)
+## Conclusion[](#conclusion)
 
 This tutorial has equipped you with the skills to create a simple yet powerful NFT (Non-Fungible Token) with both off-chain and on-chain metadata. You've learned to generate and return JSON metadata for ERC-721 tokens programmatically, craft unique SVG art deterministically within a smart contract, and produce pseudorandom numbers for color generation. This knowledge forms a solid foundation for developing more sophisticated NFT projects and understanding the intricacies of on-chain data storage in blockchain applications.

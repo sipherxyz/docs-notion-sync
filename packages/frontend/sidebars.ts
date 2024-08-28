@@ -37,6 +37,7 @@ const sidebars: SidebarsConfig = {
       collapsible: false,
       label: "Tutorials",
       items: [
+        "tutorials/deploy-sm-using-hardhat",
         "tutorials/verify-sm-on-funkichain",
         "tutorials/simple-nfts",
         "tutorials/simple-fungible-tokens",

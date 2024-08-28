@@ -113,6 +113,17 @@ You can verify contracts using the [FunkiScan verification tool](https://funkisc
 
 ---
 
+## Interact with the Contract on FunkiScan[](#interact-with-the-contract)
+You can now interact with your contract using [FunkiChain](https://funki-testnet.alt.technology). Click the *Contract* tab. If your contract is verified, you'll see the contract's source code and all its functions under the `Read Contract` and `Write Contract` buttons. Note that only write functions require an on-chain transaction.
+
+To interact with write functions, you need to sign in to [FunkiChain](https://funki-testnet.alt.technology) with your wallet. Currently, you can choose from any of the supported wallet providers that appear.
+
+![image.png](/img/connect-wallet.png)
+
+Once connected, you're all set to interact with any write function of the contract. Make sure your input is correct and double-check the transaction details before confirming any transaction.
+
+---
+
 ## Conclusion
 
 Congratulations! You've now mastered the art of deploying smart contracts to the blockchain. While you've only deployed to a test network so far, the process for real networks is identical—just remember, it comes with a heftier price tag!
