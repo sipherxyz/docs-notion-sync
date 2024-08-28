@@ -39,6 +39,7 @@ const sidebars: SidebarsConfig = {
       items: [
         "tutorials/deploy-sm-using-hardhat",
         "tutorials/deploy-sm-using-foundry",
+        "tutorials/deploy-sm-using-remix",
         "tutorials/verify-sm-on-funkichain",
         "tutorials/simple-nfts",
         "tutorials/simple-fungible-tokens",

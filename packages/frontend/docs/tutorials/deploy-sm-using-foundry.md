@@ -264,7 +264,7 @@ The response should be `0x000000000000000000000000000000000000000000000000000000
 
 ---
 
-## Interact with the Contract on FunkiScan[](https://docs.base.org/tutorials/deploy-with-remix/#interact-with-the-contract)
+## Interact with the Contract on FunkiScan[](#interact-with-the-contract)
 
 You can now interact with your contract using [FunkiChain](https://funki-testnet.alt.technology). Click the *Contract* tab. If your contract is verified, you'll see the contract's source code and all its functions under the `Read Contract` and `Write Contract` buttons. Note that only write functions require an on-chain transaction.
 
