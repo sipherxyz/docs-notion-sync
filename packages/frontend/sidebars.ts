@@ -45,6 +45,9 @@ const sidebars: SidebarsConfig = {
         "tutorials/verify-sm-on-funkichain",
         "tutorials/simple-nfts",
         "tutorials/simple-fungible-tokens",
+        "tutorials/interact-with-standard-bridge",
+        "tutorials/connect-metamask",
+        "tutorials/connect-walletconnect-appkit"
       ],
     },
     {
