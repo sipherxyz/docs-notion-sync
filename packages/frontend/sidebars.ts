@@ -38,6 +38,7 @@ const sidebars: SidebarsConfig = {
       label: "Tutorials",
       items: [
         "tutorials/deploy-sm-using-hardhat",
+        "tutorials/deploy-sm-using-foundry",
         "tutorials/verify-sm-on-funkichain",
         "tutorials/simple-nfts",
         "tutorials/simple-fungible-tokens",

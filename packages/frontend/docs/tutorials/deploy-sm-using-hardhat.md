@@ -43,7 +43,7 @@ To deploy a smart contract, you'll need a web3 wallet. Create one by installing 
 
 Deploying contracts to the blockchain incurs gas fees. You'll need to fund your wallet with ETH to cover these costs.
 
-For this tutorial, you'll deploy a contract to the FunkiSepolia. To obtain Sepolia ETH, use one of the faucets listed on the Funki [Network Faucets](https://docs-funki.sipher.gg/docs/tools/network-faucets) page.
+For this tutorial, you'll deploy a contract to the FunkiSepolia. To obtain Sepolia ETH, use one of the faucets listed on the Funki [Network Faucets](https://funkichain.com/portfolio/tokens?modal=claim-faucet) page.
 
 ---
 
