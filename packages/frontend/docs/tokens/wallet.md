@@ -27,7 +27,7 @@ MetaMask makes any ERC-20 token instantly available for swapping seconds from wh
 Follow the instructions below to ensure your token logo, asset name, and other metadata also appear on MetaMask.
 
 :::info Disclaimer
-Base does not endorse any specific token that is deployed on mainnet and made available for swapping.
+Funki does not endorse any specific token that is deployed on mainnet and made available for swapping.
 :::
 
 ---

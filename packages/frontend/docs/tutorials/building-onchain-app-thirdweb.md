@@ -62,17 +62,17 @@ Post-deployment, you can manage your smart contract via the [thirdweb dashboard
 
 Currently, your NFT Collection lacks NFTs. To populate our upcoming NFT Gallery app, we will need to create several NFTs.
 
-Follow the steps below to mint new NFTs:
+Follow the steps below to set metadata for new NFTs:
 
 1. Visit the [thirdweb dashboard](https://thirdweb.com/dashboard).
 2. From the dashboard, select [**View contracts**](https://thirdweb.com/dashboard/contracts) to view all your previously deployed contracts.
 3. Select the NFT Collection smart contract you deployed.
 4. Navigate to the **NFTs** tab on the left-hand sidebar.
-5. Click **Mint**.
+5. Click **+Set NFT Metadata**.
 6. Fill in the metadata details for the NFT (name, media, description, properties).
-7. Click **Mint NFT**.
+7. Click **Set NFT Metadata**.
 
-Repeat these steps to mint as many NFTs as you'd like.
+Repeat these steps to set NFT Metadata as many NFTs as you'd like.
 
 ![images/png](/img/thirdweb-mint.png)
 

@@ -266,9 +266,9 @@ The response should be `0x000000000000000000000000000000000000000000000000000000
 
 ## Interact with the Contract on FunkiScan[](#interact-with-the-contract)
 
-You can now interact with your contract using [FunkiChain](https://funki-testnet.alt.technology). Click the *Contract* tab. If your contract is verified, you'll see the contract's source code and all its functions under the `Read Contract` and `Write Contract` buttons. Note that only write functions require an on-chain transaction.
+You can now interact with your contract using [FunkiChain](https://docs.funkichain.com/docs/network-information). Click the *Contract* tab. If your contract is verified, you'll see the contract's source code and all its functions under the `Read Contract` and `Write Contract` buttons. Note that only write functions require an on-chain transaction.
 
-To interact with write functions, you need to sign in to [FunkiChain](https://funki-testnet.alt.technology) with your wallet. Currently, you can choose from any of the supported wallet providers that appear.
+To interact with write functions, you need to sign in to [FunkiChain](https://docs.funkichain.com/docs/network-information) with your wallet. Currently, you can choose from any of the supported wallet providers that appear.
 
 ![image.png](/img/connect-wallet.png)
 

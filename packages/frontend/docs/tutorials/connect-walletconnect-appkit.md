@@ -243,7 +243,7 @@ navController().openWeb3Modal(
 
 ## iOS
 
-### IInstallation
+### Installation
 
 **Swift Package Manager**
 
