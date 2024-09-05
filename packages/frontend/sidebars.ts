@@ -35,6 +35,25 @@ const sidebars: SidebarsConfig = {
       type: "category",
       collapsed: false,
       collapsible: false,
+      label: "Tutorials",
+      items: [
+        "tutorials/deploy-sm-using-hardhat",
+        "tutorials/deploy-sm-using-foundry",
+        "tutorials/deploy-sm-using-remix",
+        "tutorials/deploy-sm-using-thirdweb",
+        "tutorials/building-onchain-app-thirdweb",
+        "tutorials/verify-sm-on-funkichain",
+        "tutorials/simple-nfts",
+        "tutorials/simple-fungible-tokens",
+        "tutorials/interact-with-standard-bridge",
+        "tutorials/connect-metamask",
+        "tutorials/connect-walletconnect-appkit"
+      ],
+    },
+    {
+      type: "category",
+      collapsed: false,
+      collapsible: false,
       label: "Tools",
       items: [
         "tools/node-providers",
