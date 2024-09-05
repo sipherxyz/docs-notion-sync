@@ -19,16 +19,16 @@ By the end of this tutorial, you'll be able to:
 
 ---
 
-## Prerequisites[](https://docs.base.org/tutorials/build-with-thirdweb/#prerequisites)
+## Prerequisites[](#prerequisites)
 
-### 1. Setting Up a Web3 wallet[](https://docs.base.org/tutorials/build-with-thirdweb/#1-setting-up-a-coinbase-wallet)
+### 1. Setting Up a Web3 wallet[](#1-setting-up-a-coinbase-wallet)
 
 To begin developing an app on Funki, you first need to set up a web3 wallet. We recommend using the Coinbase Wallet or Metamask Wallet, which can be easily created by downloading the Coinbase Wallet browser extension.
 
 - Install [MetaMask Wallet](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?utm_source=metamask.io&pli=1)
 - Install [Coinbase Wallet](https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad?hl=en)
 
-### 2. Wallet Funding[](https://docs.base.org/tutorials/build-with-thirdweb/#2-wallet-funding)
+### 2. Wallet Funding[](#2-wallet-funding)
 
 Blockchain transactions, including deploying smart contracts, necessitate a gas fee. Therefore, you will need to fund your wallet with ETH to cover those gas fees.
 
@@ -36,7 +36,7 @@ For this tutorial, you will be deploying a contract to the FunkiSepolia. You can
 
 ---
 
-## Creating an NFT Collection[](https://docs.base.org/tutorials/build-with-thirdweb/#creating-an-nft-collection)
+## Creating an NFT Collection[](#creating-an-nft-collection)
 
 Before developing an app, you need to create an NFT collection via thirdweb.
 
@@ -76,7 +76,7 @@ Repeat these steps to set NFT Metadata as many NFTs as you'd like.
 
 ![images/png](/img/thirdweb-mint.png)
 
-## Building an NFT Gallery App[](https://docs.base.org/tutorials/build-with-thirdweb/#building-an-nft-gallery-app)
+## Building an NFT Gallery App[](#building-an-nft-gallery-app)
 
 Now that we have our NFT Collection, let's build an NFT Gallery App. The [thirdweb CLI](https://portal.thirdweb.com/cli) offers a variety of prebuilt and starter [templates](https://portal.thirdweb.com/templates) for popular app use-cases, significantly speeding up your development process.
 

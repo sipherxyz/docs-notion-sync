@@ -75,7 +75,7 @@ Choose "Create a TypeScript project," then press *Enter* to confirm the project 
 
 ---
 
-## Configuring Hardhat with Funki[](#configuring-hardhat-with-base)
+## Configuring Hardhat with Funki[](#configuring-hardhat-with-funki)
 
 To deploy smart contracts to the Funki network, you'll need to configure your Hardhat project and add Funki as a network.
 
@@ -152,7 +152,7 @@ For quick testing, such as adding unit tests to the NFT contract below, you migh
 
 ---
 
-## Compiling the smart contract[](https://docs.base.org/tutorials/deploy-with-hardhat/#compiling-the-smart-contract)
+## Compiling the smart contract[](#compiling-the-smart-contract)
 
 Below is a simple NFT smart contract (ERC-721) written in the Solidity programming language:
 
@@ -193,7 +193,7 @@ npx hardhat compile
 
 ---
 
-## Deploying the smart contract[](https://docs.base.org/tutorials/deploy-with-hardhat/#deploying-the-smart-contract)
+## Deploying the smart contract[](#deploying-the-smart-contract)
 
 Once your contract has been successfully compiled, you can deploy the contract to the FunkiSepolia.
 
@@ -239,7 +239,7 @@ Regardless of the network you're deploying to, if you're deploying a new or modi
 
 ---
 
-## Verifying the Smart Contract[](https://docs.base.org/tutorials/deploy-with-hardhat/#verifying-the-smart-contract)
+## Verifying the Smart Contract[](#verifying-the-smart-contract)
 
 To interact with your contract on the block explorer, you or someone else needs to verify it first. The contract we've discussed has already been verified, so you should be able to view your deployed version on a block explorer immediately. For the rest of this tutorial, we'll guide you through verifying your contract on the FunkiSepolia.
 
