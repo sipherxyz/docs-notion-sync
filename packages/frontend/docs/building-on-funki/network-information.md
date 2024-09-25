@@ -46,7 +46,7 @@ keywords:
 | RPC Endpoint    | [https://funki-testnet.alt.technology](https://funki-testnet.alt.technology)<br/>_Rate limited and not for production systems._ |
 | Chain ID        | 3397901                                                                         |
 | Currency Symbol | ETH                                                                       |
-| Block Explorer  | [https://sepolia-sandbox.funkichain.com](https://sepolia-sandbox.funkichain.com)   |
+| Block Explorer  | [https://testnet.funkiscan.io/](https://testnet.funkiscan.io/)   |
 
 ---
 

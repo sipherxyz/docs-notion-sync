@@ -174,7 +174,7 @@ Click the orange *Deploy* button. Because it costs gas to deploy a contract, y
 :::danger
 Always carefully review all transactions, confirming the transaction cost, assets transferred, and network. As a developer, you'll become accustomed to approving transactions frequently. Make a conscious effort to avoid falling into the habit of clicking *Confirm* without thoroughly examining the transaction details. If you feel rushed to *Confirm* before time runs out, it's likely a scam.
 
-After clicking the *Confirm* button, return to Remix and wait for the transaction to deploy. Copy its address and navigate to  https://sepolia-sandbox.funkichain.com/. **Note:** If you deployed to mainnet, you'll navigate to https://funkiscan.io/ instead.
+After clicking the *Confirm* button, return to Remix and wait for the transaction to deploy. Copy its address and navigate to https://funkiscan.io/. **Note:** If you deployed to mainnet, you'll navigate to https://funkiscan.io/ instead.
 :::
 
 ### Verify the Contract[](#verify-the-contract)

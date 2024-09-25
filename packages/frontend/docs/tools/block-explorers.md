@@ -33,7 +33,7 @@ Routescan superchain explorer allows you to search for transactions, addresses, 
 
 ## Testnet
 
-A Blockscout explorer is available for [Funki Testnet](https://sepolia-sandbox.funkichain.com).
+A Blockscout explorer is available for [Funki Testnet](https://testnet.funkiscan.io/).
 
 Blockscout provides tools to help you debug smart contracts and transactions:
 
