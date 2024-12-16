@@ -1,5 +1,5 @@
 ---
-title: Funki DEX FAQ
+title: Funki DEX
 slug: /tools/dex-faq
 description: An FAQ for Funki DEX, detailing its features, trading capabilities, liquidity provision, token swaps, security audits, and guidelines for users.
 keywords:
@@ -17,6 +17,7 @@ keywords:
     security audits,
     trading fees,
   ]
+# hide_table_of_contents: true
 ---
 
 # Funki DEX FAQ

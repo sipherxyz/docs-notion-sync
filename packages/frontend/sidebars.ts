@@ -56,6 +56,7 @@ const sidebars: SidebarsConfig = {
       collapsible: false,
       label: "Tools",
       items: [
+        "tools/decentralized-exchange",
         "tools/node-providers",
         "tools/block-explorers",
         "tools/network-faucets",
