@@ -96,7 +96,7 @@ Follow these steps to update the template:
 2. Locate and open the `src/consts/parameters.ts` file.
     1. Change the `contractAddress` variable to your NFT collection's contract address (found on the thirdweb dashboard).
     2. Set the `chain` variable to `funkiSepolia`.
-    3. Update the `blockExplorer` variable to `https://sepolia-sandbox.funkichain.com/`.
+    3. Update the `blockExplorer` variable to `https://testnet.funkiscan.io/`.
 3. Open the `src/main.tsx` file.
 4. Replace the entire contents of the file with the following code:
 

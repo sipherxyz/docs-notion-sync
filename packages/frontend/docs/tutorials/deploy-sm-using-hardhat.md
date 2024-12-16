@@ -226,7 +226,7 @@ Finally, run:
 npx hardhat run scripts/deploy.ts --network funkiSepolia
 ```
 
-The contract will be deployed on the FunkiSepolia. You can check the deployment status and view the contract using a [block explorer](https://sepolia-sandbox.funkichain.com/) by searching for the address provided by your deploy script. If you've deployed an exact copy of the NFT contract described above, it will be pre-verified, allowing you to interact with it directly through the web interface.
+The contract will be deployed on the FunkiSepolia. You can check the deployment status and view the contract using a [block explorer](https://testnet.funkiscan.io/) by searching for the address provided by your deploy script. If you've deployed an exact copy of the NFT contract described above, it will be pre-verified, allowing you to interact with it directly through the web interface.
 
 :::info
 If you'd like to deploy to mainnet, you'll modify the command like so:
@@ -255,8 +255,8 @@ etherscan: {
        network: "funkiSepolia",
        chainId: 3397901,
        urls: {
-        apiURL: "https://sepolia-sandbox.funkichain.com/api",
-        browserURL: "https://sepolia-sandbox.funkichain.com"
+        apiURL: "https://api.routescan.io/v2/network/testnet/evm/3397901/etherscan/api",
+        browserURL: "http://testnet.funkiscan.io/"
        }
      }
    ]
@@ -268,7 +268,7 @@ Or using the [RouterScan API](https://routescan.io/documentation/api-swagger) fo
 > As of writing these docs, the RouteScan API free tier allows you to use the API without an API key, offering up to **2 requests per second (rps)** and **a daily limit of 10,000 calls.** Read more at [RouterScan API Plans](https://routescan.io/documentation#api-plans)
 > 
 
-> To verify a contract on FunkiSepolia, simply switch the chain information to [FunkiSepolia](https://docs.funkichain.com/docs/network-information). Currently, FunkiSepolia is an L2 of Sepolia Testnet, and its explorer is publicly available at [Funki Testnet Explorer](https://sepolia-sandbox.funkichain.com/)
+> To verify a contract on FunkiSepolia, simply switch the chain information to [FunkiSepolia](https://docs.funkichain.com/docs/network-information). Currently, FunkiSepolia is an L2 of Sepolia Testnet, and its explorer is publicly available at [Funki Testnet Explorer](http://testnet.funkiscan.io/)
 > 
 
 Now, you can verify your contract on the Testnet. First, grab the deployed address and run:

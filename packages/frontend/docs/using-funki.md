@@ -67,7 +67,7 @@ To add Funki Testnet as a custom network to MetaMask:
    | RPC Endpoint    | [https://funki-testnet.alt.technology](https://funki-testnet.alt.technology)                   |
    | Chain ID        | 3397901                                                                  |
    | Currency Symbol | ETH                                                                    |
-   | Block Explorer  | [https://sepolia-sandbox.funkichain.com](https://sepolia-sandbox.funkichain.com) |
+   | Block Explorer  | [https://testnet.funkiscan.io/](https://testnet.funkiscan.io/) |
 
 6. Tap the Save button to save Funki Testnet as a network.
 

@@ -9,7 +9,7 @@ description: ""
 [FunkiScan](https://funkiscan.io/) uses the [RouterScan API](https://routescan.io/documentation/api-swagger) for contract verification. Currently, no API key is required, and your requests fall under their free plan.
 
 - As of writing these docs, the RouteScan API free tier allows you to use the API without an API key, offering up to **2 requests per second (rps)** and **a daily limit of 10,000 calls**. Read more at [RouterScan API Plans](https://routescan.io/documentation#api-plans)
-- To verify a contract on Funki Testnet, simply switch the chain information to [Funki Testnet](https://docs.funkichain.com/docs/network-information). Currently, Funki Testnet is an L2 of Sepolia Testnet, and its explorer is publicly available at [Funki Testnet Explorer](https://sepolia-sandbox.funkichain.com/)
+- To verify a contract on Funki Testnet, simply switch the chain information to [Funki Testnet](https://docs.funkichain.com/docs/network-information). Currently, Funki Testnet is an L2 of Sepolia Testnet, and its explorer is publicly available at [Funki Testnet Explorer](http://testnet.funkiscan.io/)
 
 ## Objectives
 
@@ -47,7 +47,7 @@ const config: HardhatUserConfig = {
         network: "funki",
         chainId: 33979,
         urls: {
-          apiURL: "https://api.routescan.io/v2/network/mainnet/evm/33979/etherscan",
+          apiURL: "https://api.routescan.io/v2/network/mainnet/evm/33979_2/etherscan/api",
           browserURL: "https://funkiscan.io"
         }
       }
@@ -83,14 +83,14 @@ To verify at deployment time:
 ```jsx
 forge script scripts/Deploy.s.sol
 --broadcast --rpc-url [NETWORK_RPC_URL]
---verifier-url 'https://api.routescan.io/v2/network/mainnet/evm/33979/etherscan'
+--verifier-url 'https://api.routescan.io/v2/network/mainnet/evm/33979_2/etherscan/api'
 --etherscan-api-key "verifyContract"
 ```
 
 To verify a contract that has already been deployed:
 ```jsx
 forge verify-contract [contract-address] [src/path/ContractPath.sol:ContractName]
---verifier-url 'https://api.routescan.io/v2/network/mainnet/evm/33979/etherscan'
+--verifier-url 'https://api.routescan.io/v2/network/mainnet/evm/33979_2/etherscan/api'
 --etherscan-api-key "verifyContract"
 --num-of-optimizations 200
 --compiler-version [solc compiler version]
