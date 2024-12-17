@@ -1,6 +1,7 @@
 ---
 title: web3.js
-slug: /tools/web3
+slug: /tools/clients/web3
+order: 6.9.4
 description: Documentation for using web3.js, a JavaScript library for interacting with EVM-compatible blockchains. This page covers installation, setup, connecting to the Funki network and interacting with smart contracts.
 keywords:
   [

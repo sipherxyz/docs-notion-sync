@@ -1,6 +1,7 @@
 ---
 title: thirdweb CLI
-slug: /tools/thirdweb-cli
+slug: /tools/toolchains/thirdweb-cli
+order: 6.8.3
 description: Documentation for using the thirdweb CLI for creating, deploying, and publishing smart contracts and web3 applications on the Funki network, including detailed instructions and options for project creation and deployment.
 keywords:
   [

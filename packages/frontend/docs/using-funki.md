@@ -1,6 +1,7 @@
 ---
 title: Using Funki
 slug: /using-funki
+order: 3
 description: "How to integrate Funki with popular wallets like MetaMask, covering both mainnet and testnet configurations."
 keywords:
   [

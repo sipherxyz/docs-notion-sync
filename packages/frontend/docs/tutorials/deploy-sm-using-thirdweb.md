@@ -1,6 +1,7 @@
 ---
 title: Deploying a smart contract using thirdweb
-slug: tutorials/deploy-sm-using-thirdweb
+slug: /tutorials/deploy-sm-using-thirdweb
+order: 5.4
 description: ""
 ---
 

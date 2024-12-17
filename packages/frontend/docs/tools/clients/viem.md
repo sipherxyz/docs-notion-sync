@@ -1,6 +1,7 @@
 ---
 title: viem
-slug: /tools/viem
+slug: /tools/clients/viem
+order: 6.9.3
 description: Documentation for using Viem, a TypeScript interface for EVM-compatible blockchains. This page covers installation, setup, and various functionalities such as reading and writing blockchain data and interacting with smart contracts on Funki.
 keywords:
   [

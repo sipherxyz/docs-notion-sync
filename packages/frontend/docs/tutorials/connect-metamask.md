@@ -1,6 +1,7 @@
 ---
 title: Connect Metamask
-slug: tutorials/connect-metamask
+slug: /tutorials/connect-metamask
+order: 5.10
 description: ""
 ---
 

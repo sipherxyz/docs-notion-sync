@@ -1,6 +1,7 @@
 ---
 title: Verify a Smart Contract on FunkiScan
 slug: /tutorials/verify-sm-on-funkichain
+order: 5.6
 description: ""
 ---
 

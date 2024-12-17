@@ -1,6 +1,7 @@
 ---
 title: Block Explorers
 slug: /tools/block-explorers
+order: 6.1
 description: Documentation for block explorers for the Funki network.
 keywords:
   [

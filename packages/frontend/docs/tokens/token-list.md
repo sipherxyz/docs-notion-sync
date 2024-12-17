@@ -1,6 +1,7 @@
 ---
 title: Bridging an L1 token to Funki
-slug: /token-list
+slug: /tokens/bridging-an-l1-token-to-funki
+order: 7.1
 description: How to submit ERC-20 tokens for bridging between Ethereum and Funki as a token issuer.
 keywords:
   [

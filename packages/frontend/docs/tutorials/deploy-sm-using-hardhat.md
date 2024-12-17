@@ -1,6 +1,7 @@
 ---
 title: Deploying a smart contract using Hardhat
 slug: /tutorials/deploy-sm-using-hardhat
+order: 5.1
 description: ""
 ---
 

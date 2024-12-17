@@ -1,6 +1,7 @@
 ---
 title: Adding tokens to MetaMask
-slug: /tokens/wallet
+slug: /tokens/adding-tokens-to-metamask
+order: 7.2
 description: "A simple step by step guide to ensure ERC-20 tokens show immediately on MetaMask once deployed."
 keywords:
   [

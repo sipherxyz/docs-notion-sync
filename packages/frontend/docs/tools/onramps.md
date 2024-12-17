@@ -1,6 +1,7 @@
 ---
 title: Onramps
 slug: /tools/onramps
+order: 6.6
 description: Documentation for fiat-to-crypto onramps for the Funki network.
 keywords:
   [

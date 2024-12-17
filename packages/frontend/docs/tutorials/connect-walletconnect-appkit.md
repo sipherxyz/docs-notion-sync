@@ -1,6 +1,7 @@
 ---
 title: Connect WalletConnect via AppKit
-slug: connect-walletconnect-appkit
+slug: /tutorials/connect-walletconnect-appkit
+order: 5.11
 description: ""
 ---
 

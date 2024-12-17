@@ -1,6 +1,7 @@
 ---
 title: About Funki
 slug: /
+order: 1
 description: A summary of Funki, an Ethereum Layer 2 platform developed by Atherlabs, highlighting its secure, cost-effective, and developer-oriented attributes, as well as its dedication to decentralization and its role in enhancing accessibility within the worldwide cryptoeconomy.
 keywords:
   [

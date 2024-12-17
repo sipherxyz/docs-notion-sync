@@ -1,6 +1,7 @@
 ---
 title: thirdweb SDK
-slug: /tools/thirdweb-sdk
+slug: /tools/clients/thirdweb-sdk
+order: 6.9.2
 description: Documentation for using the thirdweb SDK for building web3 applications and interacting with smart contracts on Funki. This page covers installation, initialization, and functionalities in various programming languages.
 keywords:
   [

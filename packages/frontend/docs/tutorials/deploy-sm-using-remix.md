@@ -1,6 +1,7 @@
 ---
 title: Deploying a smart contract using Remix
-slug: tutorials/deploy-sm-using-remix
+slug: /tutorials/deploy-sm-using-remix
+order: 5.3
 descriptions: ""
 ---
 

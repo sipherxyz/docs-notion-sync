@@ -1,6 +1,7 @@
 ---
 title: Hardhat
-slug: /tools/hardhat
+slug: /tools/toolchains/hardhat
+order: 6.8.1
 description: Documentation for configuring Hardhat for smart contract development on Funki, including setup instructions for mainnet, testnet, and local development environments.
 keywords:
   [

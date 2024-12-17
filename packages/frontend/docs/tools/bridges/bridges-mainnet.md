@@ -1,6 +1,7 @@
 ---
 title: Mainnet
-slug: /tools/bridges
+slug: /tools/bridges/mainnet
+order: 6.7.2
 description: Documentation for bridging assets to the Funki mainnet. This page covers how to bridge ETH and ERC-20s between Ethereum mainnet and Funki mainnet, with essential cautions and contract information.
 keywords:
   [

@@ -1,6 +1,7 @@
 ---
 title: Cross-chain
 slug: /tools/cross-chain
+order: 6.4
 description: Documentation for cross-chain communication and messaging on the Funki network. This page covers integrating tools like LayerZero with Funki for web3 transactions, cross-chain messaging, and secure blockchain communication.
 keywords:
   [

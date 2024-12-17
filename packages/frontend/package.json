@@ -12,13 +12,18 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "sync-notion": "ts-node scripts/notionSync.ts"
   },
   "dependencies": {
+    "@notionhq/client": "^2.2.14",
+    "notion-to-md": "^3.1.1",
+    "@types/node": "^20.11.30",
     "@docusaurus/core": "^3.6.3",
     "@docusaurus/preset-classic": "^3.6.3",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
+    "commander": "^11.1.0",
     "docusaurus-lunr-search": "^3.3.2",
     "postcss-import": "^16.1.0",
     "prism-react-renderer": "^2.3.0",

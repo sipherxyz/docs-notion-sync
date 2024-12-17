@@ -1,6 +1,7 @@
 ---
 title: ethers.js
-slug: /tools/ethers
+slug: /tools/clients/ethers
+order: 6.9.1
 description: Documentation for using ethers.js, a JavaScript library for EVM-compatible blockchain interactions. This page covers installation, setup, connecting to the Funki network, reading and writing blockchain data, and interacting with smart contracts.
 keywords:
   [

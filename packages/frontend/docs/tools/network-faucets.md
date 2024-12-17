@@ -1,6 +1,7 @@
 ---
 title: Network Faucets
 slug: /tools/network-faucets
+order: 6.3
 description: Documentation for Testnet Faucets for the Funki network. Details how to obtain Funki testnet ETH.
 keywords:
   [

@@ -1,6 +1,7 @@
 ---
 title: Building an onchain app using thirdweb
-slug: tutorials/building-onchain-app-thirdweb
+slug: /tutorials/building-onchain-app-thirdweb
+order: 5.5
 description: ""
 ---
 

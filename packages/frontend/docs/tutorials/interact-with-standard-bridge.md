@@ -1,6 +1,7 @@
 ---
 title: Interact with Standard Bridge
-slug: tutorials/interact-with-standard-bridge
+slug: /tutorials/interact-with-standard-bridge
+order: 5.9
 description: ""
 ---
 

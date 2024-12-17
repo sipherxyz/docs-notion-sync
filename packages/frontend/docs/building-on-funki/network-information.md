@@ -1,6 +1,7 @@
 ---
 title: Network Information
 slug: /network-information
+order: 4.1
 description: Documentation about Funki Mainnet and Funki Testnet. This page covers network information for the Funki network, including network names, descriptions, RPC endpoints, chain IDs, currency symbols, and block explorers.
 keywords:
   [

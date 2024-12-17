@@ -1,6 +1,7 @@
 ---
 title: Simple Fungible Tokens
 slug: /tutorials/simple-fungible-tokens
+order: 5.8
 description: ""
 ---
 

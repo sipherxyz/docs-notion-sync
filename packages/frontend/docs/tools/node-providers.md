@@ -1,6 +1,7 @@
 ---
 title: Node Providers
-slug: /node-providers
+slug: /tools/node-providers
+order: 6.2
 description: Documentation for Node Providers for the Funki network. Including details on their services, supported networks, and pricing plans.
 keywords:
   [

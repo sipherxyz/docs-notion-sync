@@ -1,6 +1,7 @@
 ---
 title: Testnet
-slug: /tools/bridges-testnet
+slug: /tools/bridges/testnet
+order: 6.7.3
 description: Documentation for bridging assets to the Funki testnet. This page covers how to bridge ETH and ERC-20s between Ethereum testnet and Funki testnet, with essential cautions and contract information.
 keywords:
   [

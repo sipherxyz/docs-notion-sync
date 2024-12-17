@@ -1,6 +1,7 @@
 ---
 title: Simple NFTs
 slug: /tutorials/simple-nfts
+order: 5.7
 description: ""
 --- 
 

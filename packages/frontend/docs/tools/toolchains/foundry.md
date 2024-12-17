@@ -1,6 +1,7 @@
 ---
 title: Foundry
-slug: /tools/foundry
+slug: /tools/toolchains/foundry
+order: 6.8.2
 description: Documentation for Foundry, a toolchain for smart contract development. Provides instructions on deploying and verifying contracts on Funki's mainnet and testnet using Foundry.
 keywords:
   [

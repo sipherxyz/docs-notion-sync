@@ -1,6 +1,7 @@
 ---
 title: Differences between Ethereum and Funki
 slug: /differences
+order: 4.4
 description: Documentation covering the differences between Ethereum and Funki. This page includes details on differences between opcodes, blocks, network specifications, and transaction costs.
 keywords:
   [

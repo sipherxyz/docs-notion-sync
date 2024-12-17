@@ -1,6 +1,7 @@
 ---
 title: Funki Contracts
 slug: /funki-contracts
+order: 4.2
 description: A comprehensive list of L2 contract addresses for Funki Mainnet and Funki Testnet, including links to their respective blockchain explorers.
 keywords:
   [

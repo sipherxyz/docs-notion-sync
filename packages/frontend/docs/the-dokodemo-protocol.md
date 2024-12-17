@@ -1,6 +1,7 @@
 ---
 title: The Dokodemo Protocol
 slug: /the-dokodemo-protocol
+order: 2
 description: The Dokodemo Protocol is a game-changer in the Funki Chain universe, flipping the script on how we play with digital assets, namely Non-Fungible Tokens (NFTs)
 keywords:
   [

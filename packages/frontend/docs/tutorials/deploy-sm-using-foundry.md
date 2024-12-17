@@ -1,6 +1,7 @@
 ---
 title: Deploying a smart contract using Foundry
-slug: tutorials/deploy-sm-using-foundry
+slug: /tutorials/deploy-sm-using-foundry
+order: 5.2
 description: ""
 ---
 

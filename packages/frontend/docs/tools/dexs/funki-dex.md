@@ -1,6 +1,7 @@
 ---
 title: Funki DEX
-slug: /tools/dex-faq
+slug: /tools/dexs/funki-dex
+order: 6.5.1
 description: An FAQ for Funki DEX, detailing its features, trading capabilities, liquidity provision, token swaps, security audits, and guidelines for users.
 keywords:
   [
@@ -15,7 +16,7 @@ keywords:
     DeFi,
     smart contracts,
     security audits,
-    trading fees,
+    trading fees
   ]
 # hide_table_of_contents: true
 ---

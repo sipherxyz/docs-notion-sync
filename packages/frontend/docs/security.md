@@ -1,6 +1,7 @@
 ---
 title: Security
 slug: /security
+order: 8
 description: The Funki bug bounty program and procedures for reporting vulnerabilities.
 keywords:
   [
