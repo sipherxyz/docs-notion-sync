@@ -33,8 +33,7 @@ const sidebars: SidebarsConfig = {
       "tutorials/simple-fungible-tokens",
       "tutorials/interact-with-standard-bridge",
       "tutorials/connect-metamask",
-      "tutorials/connect-walletconnect-appkit",
-      "tutorials/my-tutorial-1"
+      "tutorials/connect-walletconnect-appkit"
     ]
   },
   {
@@ -105,7 +104,6 @@ const sidebars: SidebarsConfig = {
     ]
   },
   "security",
-  "my-tutorial-2",
   "privacy-policy",
   "terms-of-use"
 ]
