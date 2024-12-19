@@ -1,6 +1,6 @@
 ---
 title: Funki Bridge - FAQ
-slug: /tools/bridges/funki-bridges-faq
+slug: /tools/bridges/funki-bridge-faq
 order: 6.7.1
 description: An FAQ for Funki Bridge, detailing its features, usage, compatibility with Ethereum wallets, transaction processes, fees, benefits, risks, and guidelines for new users.
 keywords: [Funki Bridge,FAQ,frequently asked questions,bridging to Funki,how to bridge to Funki,Ethereum,blockchain technology,digital asset transfer,cryptocurrency,wallet compatibility,transaction security,network fees,]
