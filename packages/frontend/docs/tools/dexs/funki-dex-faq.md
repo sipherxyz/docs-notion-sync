@@ -3,9 +3,8 @@ title: Funki DEX-FAQ
 slug: /tools/dexs/funki-dex-faq
 order: 6.5.2
 description: An FAQ for Funki DEX, detailing its features, trading capabilities, liquidity provision, token swaps, security audits, and guidelines for users.
-keywords: [Funki DEX, FAQ, frequently asked questions, decentralized exchange, token swaps, liquidity pools, UniswapV3, cryptocurrency trading, DeFi, smart contracts, security audits, trading fees]
+keywords: [Funki DEX,FAQ,frequently asked questions,decentralized exchange,token swaps,liquidity pools,UniswapV3,cryptocurrency trading,DeFi,smart contracts,security audits,trading fees]
 ---
-
 
 ## General
 
@@ -162,38 +161,93 @@ To initiate an appeal for an unsupported asset on FUNKI interface, please follow
 2. Include the name of the asset, contract address, and reason you’re appealing.
 3. FUNKI compliance team will acknowledge receipt of the request within xx business day.
 4. FUNKI will internally review appeal requests on a case-by-case basis.
-<details>
-<summary>**Can I change slippage when using FUNKI Swap?**</summary>
 
-![Screenshot_2024-09-06_at_14.17.59.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a29d0ad0-5c40-46dc-afd9-2ba0cc23a350/a3360061-c189-4218-86d4-ce77005efd37/Screenshot_2024-09-06_at_14.17.59.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T142227Z&X-Amz-Expires=3600&X-Amz-Signature=6aae8f7154586d5307576f8aee8ff9dbf33ea6fb21194e94603f1a361d409aed&X-Amz-SignedHeaders=host&x-id=GetObject)
+### **8. Can I change slippage when using FUNKI Swap?**
+
+
+![Screenshot_2024-09-06_at_14.17.59.png](/c92fea2d2b3a489bbaf97fb8604dfca0/Screenshot_2024-09-06_at_14.17.59.png)
 
 
 Slippage can be adjusted for swaps using FUNKI Swap
 
 
-</details>
+### **9. How to swap on FUNKI Swap**
 
-<details>
-<summary>**How to swap on FUNKI Swap**</summary>
+- **Step 1 — Connect your wallet**
 
-Here’s how to swap tokens on FUNKI Swap:
-
-
-[steps & screenshots]
+Be sure your wallet supports all Chains & Funki Chain mainnet you will be bridging onto. 
 
 
-</details>
+![6163883f-4a86-4ed9-b259-46227aa84fa5.png](/c92fea2d2b3a489bbaf97fb8604dfca0/6163883f-4a86-4ed9-b259-46227aa84fa5.png)
 
-<details>
-<summary>**Is there a swap minimum for a FUNKI DEX transaction?**</summary>
+
+Add Funki Chain Mainnet to your Wallet
+- Network name: Funki Mainnet
+- Network RPC URL:
+
+
+[https://rpc-mainnet.funkichain.com](https://rpc-mainnet.funkichain.com/)
+- Chain ID: 33979
+- Currency symbol: ETH
+- Block explorer URL:
+
+
+[https://funkiscan.io/](https://funkiscan.io/)
+
+
+**Step 2: Select tokens & specify the amount to be swapped** 
+
+
+This is the on-chain swap. Currently, we just support users to swap SIPHER, ETH, USDT, USDC on Funki Swap
+
+
+![Screenshot_2024-12-18_at_09.14.36.png](/c92fea2d2b3a489bbaf97fb8604dfca0/Screenshot_2024-12-18_at_09.14.36.png)
+
+
+And then specify the amount you would like to swap. An estimate of the amount returned should appear in the quote field.
+
+
+**Step 3** - **Review the swap details, and then select “Confirm Swap”.**
+
+
+**Step 4 - Approve Spending**
+
+
+In your wallet, approve spending for the token you are swapping.
+
+
+This will require a network cost. If this is your first time swapping the token with the Uniswap protocol, then you’ll need to approve the token in order to trade it.
+
+
+**Step 5 - In your wallet, sign the message. This transaction will not require a network cost.**
+
+
+**Step 6 - In your wallet, confirm the swap.**
+
+
+This transaction requires network costs.
+
+
+Once confirmed, your swap is submitted to the blockchain and is pending.
+
+
+![Screenshot_2024-12-18_at_09.21.45.png](/c92fea2d2b3a489bbaf97fb8604dfca0/Screenshot_2024-12-18_at_09.21.45.png)
+
+
+**You will see “Swap success” and a green checkmark on screen when the transaction is successfully completed.**
+
+
+![Screenshot_2024-12-18_at_09.22.58.png](/c92fea2d2b3a489bbaf97fb8604dfca0/Screenshot_2024-12-18_at_09.22.58.png)
+
+
+### **10. Is there a swap minimum for a FUNKI DEX transaction?**
+
 
 No minimum has been set yet.
 
 
-</details>
+### **11. Why can my swap not be filled?**
 
-<details>
-<summary>**Why can my swap not be filled?**</summary>
 
 **A swap might not be filled for the following reasons:**
 
@@ -204,10 +258,8 @@ No minimum has been set yet.
 There are no network costs charged when an unfilled or failed swap, so the swap can be submitted again.
 
 
-</details>
+### **12. Why did my swap expire?**
 
-<details>
-<summary>**Why did my swap expire?**</summary>
 
 Swaps expire when swap is not filled within the designated time frame.
 
@@ -218,10 +270,7 @@ The deadline for a FUNKI DEX swap to be filled is 1 minute. If no filler fills t
 There are no network costs charged when an unfilled or failed swap, so the swap can be submitted again.
 
 
-</details>
-
-
-### **8. How to add liquidity to FUNKI**
+### **13. How to add liquidity to FUNKI**
 
 
 FUNKI allows you to concentrate your liquidity position within a custom price range.
@@ -230,7 +279,7 @@ FUNKI allows you to concentrate your liquidity position within a custom price ra
 You can create a pair and pool for these supported tokens: ETH, WETH, USDT, USDC, SIPHER
 
 
-### **9. How to remove liquidity from FUNKI**
+### **14. How to remove liquidity from FUNKI**
 
 
 When removing liquidity from FUNKI, you will remove your liquidity position and collect earned fees.
@@ -239,14 +288,13 @@ When removing liquidity from FUNKI, you will remove your liquidity position and 
 Or, you only collect liquidity provider fees earned, without removing liquidity.
 
 
-### **10. How to collect fees from a liquidity pool on FUNKI**
+### **15. How to collect fees from a liquidity pool on FUNKI**
 
 
 FUNKI allows fees earned to be collected from the liquidity pool without removing liquidity.
 
 
-![Screenshot_2024-09-06_at_16.39.36.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a29d0ad0-5c40-46dc-afd9-2ba0cc23a350/e2f514af-9134-4969-bcd4-9f0e1af1f284/Screenshot_2024-09-06_at_16.39.36.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T142225Z&X-Amz-Expires=3600&X-Amz-Signature=f339c67d271270268afbf826e35460eb37055a225aed097b39d50d04a97005d2&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Screenshot_2024-09-06_at_16.39.36.png](/c92fea2d2b3a489bbaf97fb8604dfca0/Screenshot_2024-09-06_at_16.39.36.png)
 
 
-![Screenshot_2024-09-06_at_16.39.57.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a29d0ad0-5c40-46dc-afd9-2ba0cc23a350/7257da7b-b963-47bf-a7a4-79e91335e847/Screenshot_2024-09-06_at_16.39.57.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T142225Z&X-Amz-Expires=3600&X-Amz-Signature=2cad7863789f8bb0ff80b3f1d85674a603367421bba00b48867d94aff236e461&X-Amz-SignedHeaders=host&x-id=GetObject)
-
+![Screenshot_2024-09-06_at_16.39.57.png](/c92fea2d2b3a489bbaf97fb8604dfca0/Screenshot_2024-09-06_at_16.39.57.png)

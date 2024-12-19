@@ -27,7 +27,6 @@ const sidebars: SidebarsConfig = {
       "tutorials/deploy-sm-using-foundry",
       "tutorials/deploy-sm-using-remix",
       "tutorials/deploy-sm-using-thirdweb",
-      "tutorials/building-onchain-app-thirdweb",
       "tutorials/verify-sm-on-funkichain",
       "tutorials/simple-nfts",
       "tutorials/simple-fungible-tokens",
@@ -63,7 +62,7 @@ const sidebars: SidebarsConfig = {
         collapsible: true,
         collapsed: true,
         items: [
-          "tools/bridges/bridges-faq",
+          "tools/bridges/funki-bridge-faq",
           "tools/bridges/bridges-mainnet",
           "tools/bridges/bridges-testnet"
         ]

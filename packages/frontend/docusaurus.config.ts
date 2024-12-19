@@ -19,8 +19,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Atherlabs", // Usually your GitHub org/user name.
-  projectName: "Funki docs", // Usually your repo name.
+  organizationName: "funkichain", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
 
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
