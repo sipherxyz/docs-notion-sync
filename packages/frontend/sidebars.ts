@@ -2,109 +2,48 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 const sidebars: SidebarsConfig = {
   docSidebar: [
-  "overview",
-  "the-dokodemo-protocol",
-  "using-funki",
+  "testing-tin-overview",
+  "testing-tin-2",
   {
     type: "category",
-    label: "Building On Funki",
+    label: "Testing Tin 3",
     collapsed: false,
     collapsible: false,
     items: [
-      "building-on-funki/network-information",
-      "building-on-funki/funki-contracts",
-      "building-on-funki/fees",
-      "building-on-funki/differences"
+      "testing-tin-3/test-docs-3",
+      "testing-tin-3/test-docs-4"
     ]
   },
   {
     type: "category",
-    label: "Tutorials",
+    label: "Test Folder B",
     collapsed: false,
     collapsible: false,
     items: [
-      "tutorials/deploy-sm-using-hardhat",
-      "tutorials/deploy-sm-using-foundry",
-      "tutorials/deploy-sm-using-remix",
-      "tutorials/deploy-sm-using-thirdweb",
-      "tutorials/verify-sm-on-funkichain",
-      "tutorials/simple-nfts",
-      "tutorials/simple-fungible-tokens",
-      "tutorials/interact-with-standard-bridge",
-      "tutorials/connect-metamask",
-      "tutorials/connect-walletconnect-appkit"
-    ]
-  },
-  {
-    type: "category",
-    label: "Tools",
-    collapsed: false,
-    collapsible: false,
-    items: [
-      "tools/block-explorers",
-      "tools/node-providers",
-      "tools/network-faucets",
-      "tools/cross-chain",
+      "test-folder-b/test-docs-5",
+      "test-folder-b/test-docs-6",
       {
         type: "category",
-        label: "Dexs",
+        label: "Test Subfolder 2",
         collapsible: true,
         collapsed: true,
         items: [
-          "tools/dexs/funki-dex",
-          "tools/dexs/funki-dex-faq"
-        ]
-      },
-      "tools/onramps",
-      {
-        type: "category",
-        label: "Bridges",
-        collapsible: true,
-        collapsed: true,
-        items: [
-          "tools/bridges/funki-bridge-faq",
-          "tools/bridges/bridges-mainnet",
-          "tools/bridges/bridges-testnet"
+          "test-folder-b/test-subfolder-2/test-docs-7",
+          "test-folder-b/test-subfolder-2/test-docs-8"
         ]
       },
       {
         type: "category",
-        label: "Toolchains",
+        label: "Test Subfolder 1",
         collapsible: true,
         collapsed: true,
         items: [
-          "tools/toolchains/hardhat",
-          "tools/toolchains/foundry",
-          "tools/toolchains/thirdweb-cli"
-        ]
-      },
-      {
-        type: "category",
-        label: "Clients",
-        collapsible: true,
-        collapsed: true,
-        items: [
-          "tools/clients/ethers",
-          "tools/clients/thirdweb-sdk",
-          "tools/clients/viem",
-          "tools/clients/web3"
+          "test-folder-b/test-subfolder-1/test-docs-10",
+          "test-folder-b/test-subfolder-1/test-docs-2"
         ]
       }
     ]
-  },
-  {
-    type: "category",
-    label: "Tokens",
-    collapsed: false,
-    collapsible: false,
-    items: [
-      "tokens/token-list",
-      "tokens/wallet"
-    ]
-  },
-  "security",
-  "privacy-policy",
-  "terms-of-use"
+  }
 ]
 };
 

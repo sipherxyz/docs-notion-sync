@@ -7,20 +7,20 @@ import 'dotenv'
 const NODE_ENV = process.env.NODE_ENV
 
 const config: Config = {
-  title: "Funki Docs",
-  tagline: "Funki chain is an L2 Ethereum Rollup Network, powered by the OP Stack, part of the Superchain, leveraging OP Plasma Mode and secured by Ethereum",
+  title: "Sample Docs",
+  tagline: "This is a sample docs",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://docs.funkichain.com",
+  url: "https://docs-sample.sipher.gg",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "funkichain", // Usually your GitHub org/user name.
-  projectName: "docs", // Usually your repo name.
+  organizationName: "sipherxyz", // Usually your GitHub org/user name.
+  projectName: "docs-notion-sync", // Usually your repo name.
 
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
@@ -37,6 +37,7 @@ const config: Config = {
     languages: ['en', 'de']
   }]],
 
+  
   presets: [
     [
       "classic",
@@ -48,7 +49,7 @@ const config: Config = {
           editUrl: function (s) {
             if (s.docPath.includes('node-providers')) return undefined
             const branch = NODE_ENV === 'production' ? 'main' : 'develop'
-            return `https://github.com/funkichain/docs/edit/${branch}/packages/frontend/docs/` + s.docPath
+            return `https://github.com/sipherxyz/docs-notion-sync/edit/${branch}/packages/frontend/docs/` + s.docPath // Replace with your repo
           }
         },
         theme: {
@@ -70,9 +71,9 @@ const config: Config = {
     navbar: {
       title: "Docs",
       logo: {
-        alt: "Funki chain logo",
+        alt: "logo",
         src: "img/logo.png",
-        href: NODE_ENV === 'production' ? 'https://funkichain.com' : 'https://funkichain.sipher.gg'
+        href: NODE_ENV === 'production' ? 'https://playsipher.com' : 'https://docs-sample.sipher.gg'
       },
       items: [],
     },
@@ -83,7 +84,7 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "About Funki",
+              label: "About This Sample",
               to: "/docs",
             },
           ],
@@ -126,12 +127,12 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/funkichain",
+              href: "https://github.com/sipherxyz/docs-notion-sync",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Funki Chain, Inc. Built with Atherlabs.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sipher, Inc. Powered by Atherlabs.`,
     },
     prism: {
       theme: prismThemes.github,
